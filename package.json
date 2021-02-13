@@ -1,0 +1,25 @@
+{
+  "name": "FingerTest",
+  "version": "1.0.0",
+  "description": "FingerTest",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "engines": {
+    "node": ">=7.6.0",
+    "npm": ">=4.1.2"
+  },
+  "author": "GeeksForGeeks",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^4.8.7",
+    "nodemon": "^1.14.12"
+  },
+  "devDependencies": {}
+}

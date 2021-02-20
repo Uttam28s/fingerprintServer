@@ -16,6 +16,10 @@ app.get("/", function (req, res) {
   res.send("Hello World!");
 });
 
+app.post("/addUser", function (req, res) {
+  res.send("request ->>>>>>>", req.body);
+});
+
 var server = app.listen(port, function () {
   var host = server.address().address;
   var port = server.address().port;

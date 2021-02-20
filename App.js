@@ -17,7 +17,8 @@ app.get("/", function (req, res) {
 });
 
 app.post("/addUser", function (req, res) {
-  res.send("request ->>>>>>>", req.body);
+  console.log("🚀 ~ file: App.js ~ line 20 ~ req", req.body);
+  res.send("recive id");
 });
 
 var server = app.listen(port, function () {
